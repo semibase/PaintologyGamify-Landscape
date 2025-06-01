@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_title" translatable="false">Paintology - Landscape Painting Phone</string>
-    <string name="splash_app_title" translatable="false">Landscape Painting Phone</string>
-    <string name="app_share_title" translatable="false">Paintology - Landscape Painting Phone</string>
+    <string name="app_title" translatable="false">Paintology - Landscape Painting</string>
+    <string name="splash_app_title" translatable="false">Landscape Painting</string>
+    <string name="app_share_title" translatable="false">Paintology - Landscape Painting</string>
     <bool name="is_tablet">false</bool>
 
 
