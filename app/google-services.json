@@ -268,6 +268,43 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:630555728705:android:6f4dba2eaee7ca8761dfc0",
+        "android_client_info": {
+          "package_name": "com.paintology.lite.landscape.painting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630555728705-4u30ercjnb8npa3hemfmqiuf23gt0q9j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paintology.lite.landscape.painting",
+            "certificate_hash": "4c9fd4279620a1038174e855cfda143c88a26074"
+          }
+        },
+        {
+          "client_id": "630555728705-hq7jk88i92udabkg7ur8hdk1tr7e1k2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdoustn36KGs9okoQf6m1FEw7xVt8MV58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630555728705-betp7iprgvl24pbnfbt024inho36lrmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:630555728705:android:cda4eb6059b0d29861dfc0",
         "android_client_info": {
           "package_name": "com.paintology.lite.line.drawing"
@@ -353,6 +390,117 @@
           "client_type": 1,
           "android_info": {
             "package_name": "com.paintology.lite.pencil.drawing",
+            "certificate_hash": "4c9fd4279620a1038174e855cfda143c88a26074"
+          }
+        },
+        {
+          "client_id": "630555728705-hq7jk88i92udabkg7ur8hdk1tr7e1k2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdoustn36KGs9okoQf6m1FEw7xVt8MV58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630555728705-betp7iprgvl24pbnfbt024inho36lrmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630555728705:android:5bf66a8cd16d846c61dfc0",
+        "android_client_info": {
+          "package_name": "com.paintology.lite.photorealistic.drawing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630555728705-ao4oq9bljvop6g7v1ukbfscvm8gn9sav.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paintology.lite.photorealistic.drawing",
+            "certificate_hash": "4c9fd4279620a1038174e855cfda143c88a26074"
+          }
+        },
+        {
+          "client_id": "630555728705-hq7jk88i92udabkg7ur8hdk1tr7e1k2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdoustn36KGs9okoQf6m1FEw7xVt8MV58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630555728705-betp7iprgvl24pbnfbt024inho36lrmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630555728705:android:12e09d3d0bc2bcea61dfc0",
+        "android_client_info": {
+          "package_name": "com.paintology.lite.portrait.drawing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630555728705-vve5hrds8435t01d8d336rg9db2688l0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paintology.lite.portrait.drawing",
+            "certificate_hash": "4c9fd4279620a1038174e855cfda143c88a26074"
+          }
+        },
+        {
+          "client_id": "630555728705-hq7jk88i92udabkg7ur8hdk1tr7e1k2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdoustn36KGs9okoQf6m1FEw7xVt8MV58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630555728705-betp7iprgvl24pbnfbt024inho36lrmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630555728705:android:de362148d578a4db61dfc0",
+        "android_client_info": {
+          "package_name": "com.paintology.lite.total.beginner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630555728705-ae2hddiirda8jjpr74f1m3miqrfguvat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paintology.lite.total.beginner",
             "certificate_hash": "4c9fd4279620a1038174e855cfda143c88a26074"
           }
         },
