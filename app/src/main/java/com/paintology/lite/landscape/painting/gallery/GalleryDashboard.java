@@ -30,6 +30,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
+import android.os.Looper;
 import android.preference.PreferenceManager;
 import android.provider.MediaStore;
 import android.provider.Settings;
@@ -1333,10 +1334,17 @@ public class GalleryDashboard extends BaseActivity implements View.OnClickListen
         ContextKt.showBanners(this, binding);
     }
 
-    public void onClick(int id) {
-        if (drawerLayout.isOpen()) {
-            drawerLayout.close();
+    public void openDrawer() {
+        try {
+            if (!drawerLayout.isOpen()) {
+                drawerLayout.open();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+    }
+
+    public void onClick(int id) {
         switch (id) {
             case R.id.nav_profile:
 
@@ -2116,6 +2124,13 @@ public class GalleryDashboard extends BaseActivity implements View.OnClickListen
             _intent.putExtra("levelCount", levelList);
             _intent.putExtra("cate_id", StringConstants.CATE_ID);
             startActivity(_intent);
+
+            new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    openDrawer();
+                }
+            }, 1000);
         } else {
             Toast.makeText(this, getResources().getString(R.string.no_internet_msg), Toast.LENGTH_SHORT).show();
         }
