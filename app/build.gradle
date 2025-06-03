@@ -21,7 +21,7 @@ android {
         versionName '3.0'
 
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
-        project.archivesBaseName = "trace_drawing"
+        project.archivesBaseName = "Landscape_Painting"
 
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
@@ -35,7 +35,7 @@ android {
     def formattedDate = date.format('dd_MM_yyyy')
     applicationVariants.configureEach { variant ->
         variant.outputs.configureEach {
-            outputFileName = formattedDate + "_Paintology_Landscape_Drawing_app_release_${defaultConfig.versionCode}.apk"
+            outputFileName = formattedDate + "_Paintology_Landscape_Painting_app_release_${defaultConfig.versionCode}.apk"
         }
     }
 
